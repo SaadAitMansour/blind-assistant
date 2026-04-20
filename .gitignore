@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Models (too large for github)
+models/
+*.pt
+*.pth
+*.weights
+
+# Uploads & temp
+uploads/
+*.tmp
+
+# Environment
+.env
+.env.local
+
+# Node
+web/node_modules/
+web/build/
+
+# VS Code
+.vscode/
+
+# Known faces (privacy)
+known_faces/
+
+# OS
+.DS_Store
+Thumbs.db
